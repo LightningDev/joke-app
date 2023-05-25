@@ -9,7 +9,7 @@ const Home = async () => {
       <div className="max-w-lg w-full space-y-8 bg-white p-10 rounded-xl shadow-lg">
         <div>
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
-            Here's a Joke for You
+            Here&apos;s a Joke for You
           </h2>
         </div>
         <JokeView joke={{setup: joke.response.setup, delivery: joke.response.delivery}} />
