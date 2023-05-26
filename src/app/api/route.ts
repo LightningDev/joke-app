@@ -5,6 +5,7 @@ export async function GET() {
     headers: {
       'Content-Type': 'application/json',
     },
+    cache: 'no-store'
   });
   const response = await res.json();
   return NextResponse.json({ response });

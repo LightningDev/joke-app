@@ -11,7 +11,7 @@ const JokeView = (props: any) => {
 
   useEffect(() => {
     setIsLoading(joke.setup === '')
-  })
+  }, [joke.setup])
 
   const refreshJoke = () => {
     setShowPunchline(false)
