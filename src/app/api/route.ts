@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
- 
+
 export async function GET() {
   const res = await fetch('https://v2.jokeapi.dev/joke/Any?type=twopart', {
     headers: {
@@ -10,4 +10,4 @@ export async function GET() {
   return NextResponse.json({ response });
 }
 
-export const fetchCachei = 'force-no-store'
+export const fetchCache = 'force-no-store'
