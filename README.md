@@ -39,7 +39,7 @@ Compared to a client-side only React app, a Next.js app can deliver a better use
 
 ## How to use
 
-1. Clone this repository: `git clone https://github.ss.australiacloud.com.au/nt0001/nextjs-joke`
+1. Clone this repository: `git clone https://github.com/LightningDev/joke-app`
 2. Install dependencies: `npm install` or `yarn install`
 3. Run the application: `npm run dev` or `yarn dev`
 
