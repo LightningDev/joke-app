@@ -2,6 +2,8 @@
 
 This is a simple Next.js web application that generates random jokes. It fetches jokes from an API and displays them on an ok UI. 
 
+Demo here: https://pun-intended.vercel.app
+
 ## Why Next.js?
 
 Next.js enhances React with features such as:
@@ -37,7 +39,7 @@ Compared to a client-side only React app, a Next.js app can deliver a better use
 
 ## How to use
 
-1. Clone this repository: `git clone https://github.ss.australiacloud.com.au/nt0001/nextjs-joke`
+1. Clone this repository: `git clone https://github.com/LightningDev/joke-app`
 2. Install dependencies: `npm install` or `yarn install`
 3. Run the application: `npm run dev` or `yarn dev`
 
